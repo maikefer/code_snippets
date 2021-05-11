@@ -1,0 +1,17 @@
+{
+  "experiments_directory": "/path/to/directory/",
+  "experiment_name": "regression_initial_resnext50",
+  "data": {
+    "tmp": true,
+    "data_path": "/path/to/data/",
+    "batch_size": 32,
+    "val_geometries": "val",
+    "train_geometries": "train",
+    "shuffle": true
+  },
+  "epochs": 50,
+  "mini_batch_for_statistic": 2000,
+  "model": {
+    "name": "resnext50"
+  }
+}
